@@ -1,0 +1,76 @@
+
+            .output1{
+            border: 2px solid black;
+            width: 126px;
+            height: 100px;
+            max-height: 100px;
+            font-size: 21px;
+            text-align:center;
+            }
+
+            .button1{
+            width: 113px;
+            height: 113px;
+            margin: 2px;
+            font-size: 30px;
+            }
+
+            .box {
+            border: 2px solid black;
+            width: 90px;
+            height: 40px;
+            max-height:40px;
+            margin-top: -30px;
+            text-align:center;
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 40px;
+            font-size: 30px;
+            
+            }
+
+            .count {
+            margin-top: -29px;
+            text-align:center;
+            font-size:23px;
+            }
+
+            .input{
+            display: table-cell;
+            }
+
+            .deck1 {
+                display: table-cell;
+                padding-left: 30px;
+            }
+
+            .hardreset{
+            margin-top: 30px;
+            }
+
+            .reset {
+            padding: 10px;
+            margin-bottom: 19px;
+            width: 591px;
+            }
+
+            .split{
+            padding-top: 30px;
+            padding-bottom:30px;
+            padding-left:50px;
+            padding-right:50px;
+            margin-left: 50px;
+            }
+
+            .stand {
+            width: 130px;
+            height: 37px;
+            }
+
+            .fuckyou{
+            position:fixed;
+            margin-left: 673px;
+            margin-top: -240px;
+            }
+    

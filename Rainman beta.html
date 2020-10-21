@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style_beta.css" media="screen"/>
+        <script src="script_beta.js"></script>
+    </head>
+
+    <body>
+        
+
+        <div style="display: table; position:fixed; width:930px;">
+            <div style="display: table-row">
+                <div class="input">
+                    <button onclick="reset();" class='reset'>RESET</button><br>
+                    <button onclick="pluscounter(); two();" class='button1'>2</button>
+                    <button onclick="pluscounter(); three();" class='button1'>3</button>
+                    <button onclick="pluscounter(); four();" class='button1'>4</button>
+                    <button onclick="pluscounter(); five();" class='button1'>5</button>
+                    <button onclick="pluscounter(); six();" class='button1'>6</button><br>
+                    <button onclick="seven();" class='button1'>7</button>
+                    <button onclick="eight();" class='button1'>8</button>
+                    <button onclick="nine();" class='button1'>9</button>
+                    <button onclick="splitdecks();" class='split'>SPLIT</button><br>
+                    <button onclick="minuscounter(); ten();" class='button1'>10</button>
+                    <button onclick="minuscounter(); jack();" class='button1'>J</button>
+                    <button onclick="minuscounter(); queen();" class='button1'>Q</button>
+                    <button onclick="minuscounter(); king();" class='button1'>K</button>
+                    <button onclick="minuscounter(); ace();" class='button1'>Ace</button><br>
+                    <button onclick="hardreset()" class='hardreset'>HARD RESET</button>
+                </div>
+                <br>
+                <div class='deck1'>
+                    <button class='stand'>STAND</button><br>
+                    <p id="outputdeck1" class='output1'></p><br>
+                    
+                </div>
+                    <div class='deck1'>
+                        <button class='stand'>STAND</button><br>
+                    <p id="outputdeck2" class='output1'></p><br>
+                    </div>   
+            </div>
+            <div class='fuckyou'>
+            <p class='count'><b>RUNNING COUNT<b></p><br>
+            <p id="para" class='box'><p><br>
+            <p class='count'><b>REAL COUNT<b></p><br>
+            <p class='box'></p>
+            </div>
+        </div>
+    </body>
+</html>
